@@ -1,6 +1,6 @@
 ---
 - name: Deploy Mysql/Httpd/Wordpress
-  hosts:   localhost 
+  hosts: all 
   become: true
   roles:
     - { role:  sysdev.mysql, tags: mysql }
