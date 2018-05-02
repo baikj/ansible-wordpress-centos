@@ -10,7 +10,7 @@
         state=present
 
 - name: install mysql CE 
-  yum: name=mysql-server state=present
+  yum: name=mysql-community-server state=present
 
 - name: install MySql-Python
   yum: name=MySQL-python state=present
